@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'caviardreams';
+    src: url('../fonts/caviardreams/CaviarDreams-webfont.eot');
+    src: url('../fonts/caviardreams/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/caviardreams/CaviarDreams-webfont.woff') format('woff'),
+         url('../fonts/caviardreams/CaviarDreams-webfont.ttf') format('truetype'),
+         url('../fonts/caviardreams/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#wrapper {
+  margin: 0;
+  height: 2000px;
+  max-width: 100%;
+}
+
+.button-header {
+  text-align: left;
+}
+
+.button-header img {
+  width: 5%;
+  padding: 1% 1%;
+}
+
+header img {
+  width: 100%;
+  padding: 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "caviardreams";
+  padding: 0 30px;
+}
+
+nav ul li a:hover {
+  color: pink;
+}
+
+.main-picture img {
+  max-width: 100%;
+  height: auto;
+  padding: 3% 0% 0%;
+}
+
+.photos {
+  text-align: center;
+}
+
+.photos img {
+  display: inline-block;
+  width: 30%;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  padding: 2% 0;
+}
+
+.banner2 img {
+  width: 100%;
+  height: auto;
+  padding: 2% 0;
+}
+
+@media screen and (max-width: 940px) {
+  nav ul li a {
+    padding: 0 0;
+    font-size: 13px;
+  }
+}
+
+/*iphone max 640, ipad 1040, desktop min 1040*/
+
+@media screen and (min-width: 640px) {
+  .button-header img {
+    width: 3%;
+  }
+}
